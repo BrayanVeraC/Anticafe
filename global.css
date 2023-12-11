@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+:root{
+  --main-color: #FEFFFA;
+  --secondari-color: rgb(151, 101, 8);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+body{
+  background: var(--main-color);
+}
+
+/*Bootstrap Edit*/
+.chkbox{
+  margin-bottom: 15px;
+}
+.no-box{
+  border-radius: 12px!important;
+}
+.sbmt{
+  width: 100%;
+}
